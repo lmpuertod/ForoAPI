@@ -1,0 +1,14 @@
+spring:
+  profile.active: dev, test, prod
+  datasource:
+    url: jdbc:postgresql://localhost:5432/Foro
+    username: postgres
+    password: mighel218
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  error:
+    include-stacktrace: never
